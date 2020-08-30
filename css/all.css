@@ -9968,7 +9968,7 @@ h3 {
 .banner .content {
   width: 60%;
   left: 20%;
-  top: 50%;
+  top: 40%;
 }
 
 @media (min-width: 768px) {
@@ -10021,8 +10021,8 @@ h3 {
 .overlap-word {
   color: white;
   font-size: 2rem;
-  top: 50%;
-  left: 10%;
+  top: 220px;
+  left: 110px;
 }
 
 .delete {

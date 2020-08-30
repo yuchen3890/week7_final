@@ -1,0 +1,74 @@
+.banner{
+    color: white;
+    .content{
+        width: 60%;
+        left: 20%;
+        top:50%;
+    }   
+}
+
+@media(min-width:768px){
+    .content{
+        width: 30%;
+        left: 55%;
+        top: 45%;
+    }
+    
+}
+
+
+
+.btn-shop{
+    border-radius: 17px;
+    width: 350px;//?
+}
+
+
+.card a{
+    color: $color-light;
+    font-weight: bold;
+}
+
+.special{
+    background-color: $dark-0;
+}
+
+.search{
+    top: 40%;
+    left: 10%;
+    h5{
+        font-weight: bold; 
+        color: $dark-1; 
+    }
+    input{
+        border: 1px solid $color-primary;
+    }
+    input, .submit{
+        border-radius: 0.5px;
+    }
+    .submit{
+        color: white;
+        background-color: $color-primary;
+        padding: 5px;
+    }
+
+} 
+
+.overlap-dark{
+    opacity: 0.7;
+    top: 0%;
+    left: 0%;
+}
+
+.overlap-word{
+    color: white;
+    font-size: 2rem;
+    top: 50%;
+    left: 10%;
+}
+
+
+
+
+
+

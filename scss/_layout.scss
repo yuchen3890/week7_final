@@ -1,0 +1,52 @@
+.whole{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.navbar a:hover{
+    background-color: $dark-2; 
+}
+
+.menu span, .word{
+    color: $dark-1; 
+}
+
+.menu img{
+    height: 16px;
+}
+
+.footer{
+    background-color: $color-primary;
+    height: 80px;
+}
+
+.header{
+    height: 56px;
+}
+
+@media (min-width: 576px) {
+    .whole {
+      max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .whole {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .whole {
+        max-width: 960px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .whole {
+        max-width: 1140px;
+    }
+}
+  
+

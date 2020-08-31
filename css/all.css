@@ -10030,6 +10030,29 @@ h3 {
   text-decoration: line-through;
 }
 
+.navbar .active {
+  height: 200px;
+}
+
+.navbar-nav {
+  height: 0px;
+  width: 100%;
+  transition: all 0.8s;
+  overflow: hidden;
+  background-color: #707070;
+  flex-direction: column;
+}
+
+.navbar-toggler {
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;

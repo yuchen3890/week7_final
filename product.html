@@ -20,11 +20,15 @@
         <link rel="stylesheet" href="css/all.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        
+        
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../week7_final/js/product.js"></script>
     </head>
 
 <body>
     <div class="whole">
-        <div class="container d-flex justify-content-around align-items-center header">
+        <div class="container d-flex justify-content-between align-items-center header " >
             <img src="img/d’Perfume.png" alt="">
             <div class="menu d-flex">
                 <nav class="navbar">
@@ -58,14 +62,21 @@
                     </a>
                 </nav>
                 <nav class="navbar">
-                    <a class="navbar-brand d-flex d-md-none align-items-center" href="#">
+                    <button class="navbar-toggler navbar-brand d-flex d-md-none align-items-center">
                         <span class="material-icons mr-1">
                             menu
                         </span>
-                    </a>
+                    </button>
                 </nav>
             </div>
         </div>
+        <ul class="navbar-nav">
+            <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white;" href="#">Product</a></li>
+            <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white; href="#">Wishlist</a></li>
+            <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white; href="#">Blog</a></li>
+            <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white; href="#">Contact</a></li>
+            <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white; href="#">Mypage</a></li>
+        </ul>
         <!-- 客製化內容開始 -->
         <div class="container-fluid mb-5 d-none d-md-block">
             <div class="menu d-flex bg-primary justify-content-center">
@@ -541,12 +552,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="subscribe position-relative">
-                    <img src="img/photo-1532413992378-f169ac26fff0.png" alt="" class="img-fluid d-none d-md-block">
-                    <img src="img/photo-1532413992378-f169ac26fff0 (2).png" alt="" class="img-fluid d-md-none">
+                    <img src="img/photo-1532413992378-f169ac26fff0.png" alt="" class="d-none d-md-block">
+                    <img src="img/photo-1532413992378-f169ac26fff0 (2).png" alt="" class="d-md-none">
                     <div class="position-absolute search col-md-auto">
                         <h5>記得<br>訂閱以獲取更多資訊！</h5>
                         <form class="position-absolute d-flex" action="index.html">
-                            <input id="mail" type="text" placeholder="Your email address" name="mail" class="form-control-lg">
+                            <input id="mail" type="text" placeholder="Your email address" name="mail" class="form-control-md">
                             <button class="btn btn-primary py-2 px-4" type="submit" id="email">Subscribe</button>
                         </form>
                     </div>

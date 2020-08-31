@@ -2,3 +2,30 @@
     color: $dark-1;
     text-decoration: line-through;
 }
+
+.navbar .active{
+    height: 200px;
+}
+
+
+.navbar-nav {
+    height: 0px;
+    // position: absolute;
+    // left: 0;
+    // top: 100%;
+    width: 100%;
+    transition: all 0.8s;
+    overflow: hidden;
+    background-color: $dark-15;
+    flex-direction: column;
+}
+
+.navbar-toggler{
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}

@@ -8,11 +8,14 @@
 }
 
 @media(min-width:768px){
-    .content{
-        width: 30%;
-        left: 55%;
-        top: 45%;
+    .banner{
+        .content{
+            width: 30%;
+            left: 55%;
+            top: 45%;
+        }
     }
+    
     
 }
 

@@ -4,6 +4,9 @@
 @import "_index.scss";
 @import "_product.scss";
 
-
+img{
+	max-width:100%;//會自適應螢幕解析度做縮放
+	height: auto;
+}
 
 

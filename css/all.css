@@ -9972,7 +9972,7 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .content {
+  .banner .content {
     width: 30%;
     left: 55%;
     top: 45%;
@@ -10028,4 +10028,9 @@ h3 {
 .delete {
   color: #8D8D8D;
   text-decoration: line-through;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

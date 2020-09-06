@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>week7_final</title>
+        <title>login</title>
     
         <link rel="shortcut icon" href="source/img/shortcut.png">
         <meta name="description" content="Perfume shop from Taiwan.">
@@ -29,16 +29,16 @@
 <body>
     <div class="whole">
         <div class="container d-flex justify-content-between align-items-center header " >
-            <img src="img/d’Perfume.png" alt="">
+            <a href="index.html" class="d-block"><img src="img/d’Perfume.png" alt=""></a>
             <div class="menu d-flex">
                 <nav class="navbar">
-                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="#">
+                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="product.html">
                         <img src="img/tshirt.svg" alt="" class="mr-1">
                         <div class="word">Product</div>
                     </a>
                 </nav>
                 <nav class="navbar">
-                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="#">
+                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="login.html">
                         <span class="material-icons mr-1" >
                             person
                         </span>
@@ -78,6 +78,30 @@
             <li class="nav-item text-center p-2 border border-white border-1"><a class="nav-link" style="color: white; href="#">Mypage</a></li>
         </ul>
         <!-- 客製化內容開始 -->
+        <div class="container-fluid mb-5 d-none d-md-block">
+            <div class="menu d-flex bg-primary justify-content-start">
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">CHANNEL</a>
+                </nav>
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">Jo Malone</a>
+                </nav>
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">Curology</a>
+                </nav>
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">Dior</a>
+                </nav>
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">Chloe</a>
+                </nav>
+                <nav class="navbar">
+                    <a class="nav-link" href="#" style="color: white">ZARA</a>
+                </nav>
+            </div>
+                   
+        </div>
+        
         <div class="container">
             <div class="row mb-5 align-items-center">
                 <div class="col-12 col-md-8 mb-4">
@@ -97,7 +121,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <a href="#" class="text-primary" style="font-weight: bold;">忘記密碼</a>
                             <div class="click">
-                                <button type="submit" class="btn btn-primary text-primary" style="background-color: white;">註冊</button>
+                                <button type="submit" class="btn btn-primary text-primary" style="background-color: white;" onclick="location.href='profile.html'">註冊</button>
                                 <button type="submit" class="btn btn-primary">登入</button>
                             </div>
                             
@@ -121,7 +145,7 @@
                 <div class="word" style="color: white;">© 2020. All Rights Reserved.</div>
             </div>
             <nav class="d-none d-md-block">
-                <a class="navbar-brand" style="color: white;" href="#">Product</a>
+                <a class="navbar-brand" style="color: white;" href="product.html">Product</a>
                 <a class="navbar-brand" style="color: white;" href="#">Blog</a>
                 <a class="navbar-brand" style="color: white;" href="#">Contact</a>
             </nav>

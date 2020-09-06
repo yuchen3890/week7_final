@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>week7_final</title>
+        <title>introduction</title>
     
         <link rel="shortcut icon" href="source/img/shortcut.png">
         <meta name="description" content="Perfume shop from Taiwan.">
@@ -29,16 +29,16 @@
 <body>
     <div class="whole">
         <div class="container d-flex justify-content-between align-items-center header " >
-            <img src="img/d’Perfume.png" alt="">
+            <a href="index.html" class="d-block"><img src="img/d’Perfume.png" alt=""></a>
             <div class="menu d-flex">
                 <nav class="navbar">
-                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="#">
+                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="product.html">
                         <img src="img/tshirt.svg" alt="" class="mr-1">
                         <div class="word">Product</div>
                     </a>
                 </nav>
                 <nav class="navbar">
-                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="#">
+                    <a class="navbar-brand d-none d-md-flex align-items-center"  href="login.html">
                         <span class="material-icons mr-1" >
                             person
                         </span>
@@ -79,11 +79,11 @@
         </ul>
         <!-- 客製化內容開始 -->
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 col-md-8">
+            <div class="row position-relative">
+                <div class="col-md-8">
                     <img src="img/photo-1594913785201-eb82e5c0bce4.png" alt="">
                 </div>
-                <div class="col-12 col-md-4 mb-3">
+                <div class="col-md-4 mb-3 mb-md-0 description">
                     <h2>CHANEL N°5</h2>
                     <p class="mr-3">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
                     <p class="mr-1">NT$4,980</p>
@@ -99,7 +99,18 @@
                             </select>
                           </div>
                           <div class="col-6 my-1">
-                            <button type="submit" class="btn btn-primary">加入購物車</button>
+                            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#cart" style="cursor: pointer;">加入購物車</button>
+                            <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <span class="text-primary text-center d-block">
+                                            已加入購物車
+                                        </span>
+                                    </div> 
+                                </div>
+                                </div>
+                            </div>
                           </div>
                         </div>
                     </form>
@@ -130,13 +141,14 @@
                         <p class="mb-4">依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-3">
+                
+                <div class="col-md-4 mb-3">
                     <img src="img/photo-1594913785162-e678a0c23ee9.png" alt="">
                 </div>
-                <div class="col-12 col-md-4 mb-3">
+                <div class="col-md-4 mb-3">
                     <img src="img/photo-1594913365927-d35af29a0684.png" alt="">
                 </div>
-                <div class="col-12 col-md-8 mb-3">
+                <div class="col-md-8 mb-3">
                     <img src="img/photo-1594913785201-eb82e5c0bce4.png" alt="">
                 </div>
                 
@@ -155,7 +167,7 @@
                 <div class="word" style="color: white;">© 2020. All Rights Reserved.</div>
             </div>
             <nav class="d-none d-md-block">
-                <a class="navbar-brand" style="color: white;" href="#">Product</a>
+                <a class="navbar-brand" style="color: white;" href="product.html">Product</a>
                 <a class="navbar-brand" style="color: white;" href="#">Blog</a>
                 <a class="navbar-brand" style="color: white;" href="#">Contact</a>
             </nav>

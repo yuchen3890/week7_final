@@ -4552,19 +4552,19 @@ input[type=button].btn-block {
 .page-link {
   position: relative;
   display: block;
-  padding: 0.5rem 0.75rem;
+  padding: 0rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #916000;
+  color: black;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid transparent;
 }
 .page-link:hover {
   z-index: 2;
-  color: #452d00;
+  color: #916000;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  background-color: transparent;
+  border-color: #916000;
 }
 .page-link:focus {
   z-index: 3;
@@ -9963,19 +9963,17 @@ h3 {
   }
 }
 .banner {
-  color: white;
+  background: no-repeat center url("../img/photo-1588159343745-445ae0b16383 (2).png");
+  background-size: cover;
+  height: 870px;
 }
 .banner .content {
-  width: 60%;
-  left: 20%;
-  top: 40%;
+  color: white;
 }
 
 @media (min-width: 768px) {
-  .banner .content {
-    width: 30%;
-    left: 55%;
-    top: 45%;
+  .banner {
+    background: no-repeat center url("../img/photo-1588159343745-445ae0b16383.png");
   }
 }
 .btn-shop {
@@ -10053,6 +10051,27 @@ h3 {
   outline: 0;
 }
 
+form {
+  color: #818A91;
+}
+
+@media (min-width: 768px) {
+  .description {
+    position: absolute;
+    right: 0;
+  }
+}
+.subscribe {
+  background: no-repeat center url("../img/photo-1532413992378-f169ac26fff0 (2).png");
+  background-size: cover;
+  height: 600px;
+}
+
+@media (min-width: 768px) {
+  .subscribe {
+    background: no-repeat center url("../img/photo-1532413992378-f169ac26fff0.png");
+  }
+}
 img {
   max-width: 100%;
   height: auto;

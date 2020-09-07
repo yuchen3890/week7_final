@@ -9963,68 +9963,6 @@ h3 {
     max-width: 1140px;
   }
 }
-.banner {
-  background: no-repeat center url("../img/photo-1588159343745-445ae0b16383 (2).png");
-  background-size: cover;
-  height: 870px;
-}
-.banner .content {
-  color: white;
-}
-
-@media (min-width: 768px) {
-  .banner {
-    background: no-repeat center url("../img/photo-1588159343745-445ae0b16383.png");
-  }
-}
-.btn-shop {
-  border-radius: 17px;
-  width: 350px;
-}
-
-.card a {
-  color: #AC8A46;
-  font-weight: bold;
-}
-
-.special {
-  background-color: #E0E0E0;
-}
-
-.search h5 {
-  font-weight: bold;
-  color: #8D8D8D;
-}
-.search input {
-  border: 1px solid #916000;
-}
-.search input, .search .submit {
-  border-radius: 0.5px;
-}
-.search .submit {
-  color: white;
-  background-color: #916000;
-  padding: 5px;
-}
-
-.overlap-dark {
-  opacity: 0.7;
-  top: 0%;
-  left: 0%;
-}
-
-.overlap-word {
-  color: white;
-  font-size: 2rem;
-  top: 220px;
-  left: 110px;
-}
-
-.delete {
-  color: #8D8D8D;
-  text-decoration: line-through;
-}
-
 .navbar-toggler:focus {
   outline: 0;
 }
@@ -10094,6 +10032,68 @@ h3 {
     padding-left: 30px;
   }
 }
+.banner {
+  background: no-repeat center url("../img/photo-1588159343745-445ae0b16383 (2).png");
+  background-size: cover;
+  height: 870px;
+}
+.banner .content {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background: no-repeat center url("../img/photo-1588159343745-445ae0b16383.png");
+  }
+}
+.btn-shop {
+  border-radius: 17px;
+  width: 350px;
+}
+
+.card a {
+  color: #AC8A46;
+  font-weight: bold;
+}
+
+.special {
+  background-color: #E0E0E0;
+}
+
+.search h5 {
+  font-weight: bold;
+  color: #8D8D8D;
+}
+.search input {
+  border: 1px solid #916000;
+}
+.search input, .search .submit {
+  border-radius: 0.5px;
+}
+.search .submit {
+  color: white;
+  background-color: #916000;
+  padding: 5px;
+}
+
+.overlap-dark {
+  opacity: 0.7;
+  top: 0%;
+  left: 0%;
+}
+
+.overlap-word {
+  color: white;
+  font-size: 2rem;
+  top: 220px;
+  left: 110px;
+}
+
+.delete {
+  color: #8D8D8D;
+  text-decoration: line-through;
+}
+
 form {
   color: #818A91;
 }

@@ -218,6 +218,7 @@ textarea.form-control {
   position: relative;
   display: block;
   padding-left: $form-check-input-gutter;
+  background-color: #916000;
 }
 
 .form-check-input {
@@ -334,6 +335,9 @@ textarea.form-control {
       margin-top: 0;
       margin-right: $form-check-input-margin-x;
       margin-left: 0;
+      // color: #fff;
+      // border-color: #916000;
+      // background-color: #916000;
     }
 
     .custom-control {
